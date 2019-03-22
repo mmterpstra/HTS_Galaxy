@@ -1,3 +1,5 @@
 *.bam filter=lfs diff=lfs merge=lfs -text
 data/3/Galaxy7-[Bowtie2_on_data_4_and_data_3__aligned_reads_(BAM)].bam filter=lfs diff=lfs merge=lfs -text
 data/4/Galaxy9-[MarkDuplicates_on_data_7__MarkDuplicates_BAM_output].bam filter=lfs diff=lfs merge=lfs -text
+data/*/*.bam filter=lfs diff=lfs merge=lfs -text
+data/*/*.bai filter=lfs diff=lfs merge=lfs -text
